@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="dhcpstyle.xsl"?>
+<servers>
+  <server>
+    <index>0</index>
+    <name>SERVER_0</name>
+    <connections>
+      <connection>
+        <index>1</index>
+        <bind_index>IPBIND_1</bind_index>
+        <bind>192.168.1.100</bind>
+        <ipaddr>192.168.1.100</ipaddr>
+        <type>DHCP Server</type>
+        <port>67</port>
+        <status>Operating</status>
+        <dhcppackets>
+        </dhcppackets>
+      </connection>
+      <connection>
+        <index>2</index>
+        <bind_index>IPBIND_1</bind_index>
+        <bind>192.168.1.100</bind>
+        <ipaddr>192.168.1.100</ipaddr>
+        <type>DNS</type>
+        <port>53</port>
+        <status>Operating</status>
+      </connection>
+    </connections>
+    <clients>
+      <client>
+        <id>00-00-00-00-00-01</id>
+        <autoconfig></autoconfig>
+        <ipaddr>192.168.1.140</ipaddr>
+        <hostname>statichostexample1</hostname>
+        <lease_end>4294967295</lease_end>
+        <lease_end_utc>Tue Jan 19 04:14:07 2038</lease_end_utc>
+      </client>
+      <client>
+        <id>00-00-00-00-00-02</id>
+        <autoconfig></autoconfig>
+        <ipaddr>192.168.1.141</ipaddr>
+        <hostname>statichostexample2</hostname>
+        <lease_end>4294967295</lease_end>
+        <lease_end_utc>Tue Jan 19 04:14:07 2038</lease_end_utc>
+      </client>
+    </clients>
+  </server>
+</servers>
